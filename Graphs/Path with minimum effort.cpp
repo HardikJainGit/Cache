@@ -1,18 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-#define vi vector<int>
-#define vvi vector<vector<int>>
-#define vvvi vector<vector<vi>>
-#define f(b) for(int i=0;i<b;i++)
-#define fz(i,a,b) for(int i=a;i<b;i++)
-#define sz(x) ((int)(x).size())
-#define vp vector<pair<int,int>>
-#define pi pair<int,int>
-#define pb push_back
-#define ff first
-#define ss second
-
 // https://leetcode.com/problems/path-with-minimum-effort/
 
 // For DFS + Binary search ; binary search on the variable heights and check if we can reach or not. For dijkstra use the standard algorithm with the below modification.
